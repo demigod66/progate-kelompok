@@ -1,0 +1,54 @@
+.content-container {
+    min-height: 700px;
+    margin: 40px 0;
+    padding: 0 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    
+}
+.content-container .card {
+    height: 100%;
+}
+.card {
+    box-shadow: 0 2px 4px 0 rgba(1, 1, 1, 0.1);
+    
+}
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(1, 1, 1, 0.2);
+}
+.card > img {
+    object-fit: fill;
+    height: 200px;
+    width: 100%;
+}
+.card > .card-body {
+    padding: 20px;
+}
+
+.card h3 {
+    font-size: 22px;
+    margin: 0 0 0 0;
+}
+.card h5 {
+    font-size: 9px;
+    text-transform: uppercase;
+    color: #FF5722; }
+.card p {
+    color: rgb(167, 162, 162);
+    font-size: 15px;
+}
+.card > .card-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.card-footer a {
+    color:rgb(167, 162, 162);
+    display: inline-block;
+    font-size: 13px;
+
+}
+.font-weight-bold {
+    font-weight: bold;
+}
