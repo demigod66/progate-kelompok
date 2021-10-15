@@ -1,3 +1,16 @@
+/*responsive*/
+@media(max-width: 767px){ 
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+}   
+}
+@media(max-width: 574px){ 
+    .footer-col {
+        width: 100%;
+}
+}   
+
 @media only screen and (max-width: 420px) {
     .container-header{
         flex-wrap: wrap;
@@ -68,5 +81,7 @@
     .container-trending > img{
         width: 100%;
     }
+
+    
     
 }
