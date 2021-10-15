@@ -1,3 +1,93 @@
+<<<<<<< HEAD
+=======
+/* Style Bagian Header  */
+.container-header{
+    margin-top: 5px;
+    height: 550px;
+}
+.container-berita{
+    background-color: #FF5722;
+    height: 48%;
+    display: flex;
+}
+.container-berita .berita-text{
+    width: 30%;
+    height: 100%;
+    margin: 33px 100px;
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.berita-text p{
+    font-size: 16px;
+    width: 100%;
+}
+.container-berita .berita-conten{
+    width: 50%;
+    background-color: white;
+    height: 200px;
+    margin:25px 20px;
+    border-radius: 5px;
+}
+.berita-conten .conten-gambar{
+    width:97%;
+    height: 70%;
+    border-radius: 5px;
+    margin:10px 10px;
+    background-size: cover;
+}
+.berita-conten .conten-isi{
+    width: 100%;
+    height: 20%;
+    border-radius: 5px;
+}
+.conten-isi .isi{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 5px;
+} 
+.isi p {
+    margin:12px 8px;
+    background-color: #FF5722;
+    width: 78px;
+    line-height: 30px;
+    border-radius: 6px;
+    color:white;
+    font-size: 13px;
+    text-align: center;
+ } 
+.trending{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#FF5722;
+    margin: 10px 20px;
+}
+.container-trending{
+    height: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 20px 20px 0 rgb(245, 231, 206);
+}
+.trending-berita{
+    margin:5px auto;
+    width: 22%;
+    height: 80%;
+    font-size: 18px;
+    color: #f5f5f5;
+    background-size: cover;
+    box-shadow: 0 7px 20px 0 #9c9b99;
+    position: relative;
+    border-radius: 4px;
+    cursor: pointer;
+} 
+.trending-berita .text{
+   text-align:initial;
+   margin: 100px 15px;
+}
+
+
+>>>>>>> 216bd5fe90f2b0987a6a2f561a0473b21788a725
 .content-container {
     min-height: 700px;
     margin: 40px 0;
@@ -27,7 +117,7 @@
 }
 
 .card h3 {
-    font-size: 22px;
+    font-size: 20px;
     margin: 0 0 0 0;
 }
 .card h5 {
@@ -36,19 +126,108 @@
     color: #FF5722; }
 .card p {
     color: rgb(167, 162, 162);
-    font-size: 15px;
+    font-size: 14px;
 }
 .card > .card-footer {
     display: flex;
     justify-content: space-between;
     padding: 0 20px;
 }
-.card-footer a {
-    color:rgb(167, 162, 162);
-    display: inline-block;
-    font-size: 13px;
 
+<<<<<<< HEAD
+=======
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap');
+body{
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
 }
-.font-weight-bold {
-    font-weight: bold;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e9e9e9;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px; 
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    color: #cccccc;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 7px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #cccccc;
+    transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #cccccc;
+}
+
+/*responsive*/
+@media(max-width: 767px){ 
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+}   
+}
+@media(max-width: 574px){ 
+    .footer-col {
+        width: 100%;
+}   
+}
+>>>>>>> 216bd5fe90f2b0987a6a2f561a0473b21788a725
