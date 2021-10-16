@@ -1,52 +1,18 @@
-
-
-@media only screen and (max-width: 420px) {
-    .nav { 
-        flex-wrap: wrap;
-        width: 100%;
-    }
-
-    .container-header > div{
-        width: 100%;
-    }
-    .container-header > img{
-        width: 100%;
-    }
-    .content-container {
-        grid-template-columns: 1fr;
-    }
-    .header { 
-        width: 100%;
-    }
-
-    .header > div {
-        flex-wrap: wrap;
-        width: 100%;
-    }
-
-    .header > div li {
-        width: 100%;
-        visibility: hidden;
-    }
-    .footer-col {
-        width: 100%;
-        
-    }
-    .footer > div {
-        flex-wrap: wrap;
-        width: 100%;
-    }
-    .header .search-container{
-        padding-right: 1px;
-    }
-}
-
 @media all and (max-width: 1331px){
     .conten-isi .isi{
         justify-content: center;
      }
+     .trending-berita{
+        margin:5px auto;
+        width: 22%;
+        height: 180px;
+        font-size: 17px;
+    } 
 }
 @media all and (max-width: 1000px){
+    .container-header{
+        margin-bottom:30px;
+    }
     .container-berita .berita-conten{
         margin-bottom: 100px;
         margin-left: auto;
@@ -69,8 +35,8 @@
     .trending-berita{
          margin:5px auto;
          width: 42%;
-         height: 150px;
-         font-size: 17px;
+         height: 155px;
+         font-size: 18px;
          box-shadow: 0 7px 50px 0 #9c9b99;
          border-radius: 6px;
         } 
@@ -84,6 +50,13 @@
         .conten-isi .isi{
            justify-content: center;
         }
+        .content-container {
+            margin: 0px 0;  
+            grid-template-columns: repeat(2, 1fr);
+            }
+            
+       
+
 }
 @media all and (max-width: 670px){
     .container-header{
@@ -122,10 +95,11 @@
         }
         .trending-berita{
             margin:10px auto;
-            width: 55%;
+            width: 60%;
             height: 150px;
             font-size: 17px;
             border-radius: 6px;
+            background-color: white;
         } 
         .trending-berita .text{
            text-align:initial;
@@ -134,7 +108,9 @@
 
         .content-container {
             min-height: 700px;
-            margin: 220px 0;   
+            margin-top:800px;
+            margin-bottom: 30px;
+            grid-template-columns: 1fr; 
             }
          .conten-isi .isi{
                justify-content: center;
@@ -143,5 +119,61 @@
         .header .search-container{
             padding-left: 70px;
         }
+
+}
+
+
+@media only screen and (max-width: 420px) {
+    .nav { 
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .container-header > div{
+        width: 100%;
+    }
+    .container-header > img{
+        width: 100%;
+    }
+    .content-container {
+        grid-template-columns: 1fr;
+    }
+    .header { 
+        width: 100%;
+    }
+
+    .header > div {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .header > div li {
+        width: 100%;
+        visibility: hidden;
+    }
+    .footer-col {
+        width: 100%;
+        
+    }
+    .footer > div {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .header .search-container{
+        padding-right: 1px;
+    }
+    .container-berita .berita-conten{
+        margin-bottom: 180px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .trending-berita{
+        margin:20px auto;
+        width: 80%;
+        height: 180px;
+        font-size: 18px;
+    } 
+    .content-container{
+        margin-top: 1100px;
+    }
 
 }
