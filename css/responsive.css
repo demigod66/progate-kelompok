@@ -36,9 +36,8 @@
         flex-wrap: wrap;
         width: 100%;
     }
-
-    .search-container{
-        visibility: hidden;
+    .header .search-container{
+        padding-right: 1px;
     }
 }
 
@@ -132,4 +131,17 @@
            text-align:initial;
            margin: 100px 15px;
         }
+
+        .content-container {
+            min-height: 700px;
+            margin: 220px 0;   
+            }
+         .conten-isi .isi{
+               justify-content: center;
+            }
+
+        .header .search-container{
+            padding-left: 70px;
+        }
+
 }
